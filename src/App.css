@@ -1,0 +1,51 @@
+.myCard{
+  border:1px solid #eee;
+  margin: 5px 10px;
+  min-height: 250px;
+  position: relative;
+ 
+  
+}
+.myCard table{
+  width: 100%;
+}
+.tFooter{
+  background: #eee;
+
+}
+.discount{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: green;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 5px;
+}
+strike{color: red;}
+.tFooter td{padding: 5px;}
+.message{
+  background: green;
+  border: 1px solid green;
+  border-radius: 2px;
+  padding: 5px;
+  color: #fff;
+}
+.myCard img{
+  max-width: 100%;
+  margin: auto;
+  display: block;
+ 
+}
+
+body{
+  font-size: 12px;
+}
+
+.tableorder button{border: none; background: none; color: #bbb; padding: 2px 5px; cursor: pointer;}
+.tableorder output{background: #eee; padding: 2px 5px;}
+
+.total{min-width: 80%;}
+.total td{padding: 5px;}
+
+.blank{font-weight: normal;padding:10px 5px; font-size: 14px;}
